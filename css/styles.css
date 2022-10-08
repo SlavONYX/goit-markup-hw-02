@@ -82,7 +82,7 @@ button:focus {
 
 .banner-title{
     color: var(--background-main) ;
-    font-size: 900;
+    font-weight: 900;
     font-size: 44px ;
     line-height: calc(60 / 44);
     letter-spacing: 0.06em;
@@ -103,7 +103,6 @@ button:focus {
 }
 
 .features-title{
-    font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
     text-transform: uppercase;
@@ -111,7 +110,6 @@ button:focus {
 }
 
 .features-text{
-    font-weight: 400;
     line-height: calc(24 / 14);
     color: var(--other-text-color);
     letter-spacing: 0.03em;
@@ -153,10 +151,9 @@ button:focus {
 }
 .footer-map{
     font-style: normal;
-    font-weight: 400;
     line-height: 24px;
     line-height: calc(24 / 14);
-    line-height: 1.46%;
+    line-height: 1.46;
     color: var(--background-main);
 }
 
@@ -171,7 +168,7 @@ button:focus {
 .footer-contact{
     font-style: normal;
     line-height: 24px;
-    line-height: 1.46%;
+    line-height: 1.46;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -207,13 +204,14 @@ button:focus {
 .project-title{
     font-size: 18px;
     line-height: 36px; 
-    line-height: 2% ;
+    line-height: 2 ;
     letter-spacing: 0.06em;
 }
 
 .project-name{
     font-size: 16px;
     line-height: 30px;
-    line-height: 1.6%;
+    line-height: 1.88;
     color: var(--other-text-color);
+    letter-spacing: 0.03em; ;
 }
